@@ -1,0 +1,92 @@
+.album-info-container{
+    width:100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 28px 0px 18px 14px;
+    color: white;
+
+
+    img{
+        width: 150px;
+        height: 150px;
+        border-radius: 3px;
+        transition: scale .2s ease;
+
+        &:hover{
+            scale: 1.05;
+        }
+    }
+}
+
+.album-info{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    gap: 5px;
+    color: white;
+
+    .type-album{
+        font-size: 13px;
+        color: white;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+}
+
+.more-info-container{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+
+    span{
+        opacity: .8;
+    }
+
+    img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+}
+
+.artist-name{
+    font-weight: 700;
+}
+
+.playlist-buttons-container{
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    button{
+        background-color: transparent;
+        border: none;
+        padding: 0 10px 0 10px;
+    }
+}
+
+.play-album{
+    border-radius: 50%;
+    background-color:#1DB954 ;
+    width:40px ;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.album-more-options{
+    font-size: 20px;
+    color: rgb(179, 179, 179);;
+
+}
+
+.add-album{
+    font-size: 24px;
+    color: rgb(179, 179, 179);;
+}

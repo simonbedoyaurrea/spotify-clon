@@ -1,0 +1,10 @@
+.content-container{
+    height: 81%;
+    width: 99.5%;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 8%;
+    display:flex;
+    align-items: center;
+    gap:8px
+}

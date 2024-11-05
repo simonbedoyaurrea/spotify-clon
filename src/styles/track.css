@@ -1,0 +1,66 @@
+.track-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    width: 95%;
+    margin-left: 20px;
+    border-radius: 4px;
+
+
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.123);
+    }
+
+}
+
+.track-buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artists-container{
+    display: flex;
+    align-items: center;
+
+    p{
+        color: gray;
+        font-size: 12px;
+    }
+    .explicit-icon{
+        color: gray;
+    }
+
+}
+
+.index-trackname{
+    display: flex;
+    align-items: center;
+    color:beige;
+    gap: 15px;
+
+    .index{
+        color: gray;
+        font-size: 14px;
+    }
+    .track-song-name{
+        font-size: 14px;
+    }
+}
+.track-buttons-container{
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+        font-size: 12px;
+        color: gray;
+    }
+
+    button{
+        background-color: transparent;
+        border: none;
+    }
+}

@@ -1,0 +1,21 @@
+.main-content-container{
+    border-radius: 8px;
+    height: 100%;
+    min-width: 48%;
+    background-color: rgb(19, 19, 19);
+    overflow-y: scroll;
+    flex-grow: 1;
+}
+.main-content-container::-webkit-scrollbar {
+    display: none;                  /* Ancho de la barra de scroll */
+  
+  }
+  
+  
+
+/* .main-content-container { --scrollbar-height: 0px; --scrollbar-border-thickness: 0px; --scrollbar-width: 10px; --scrollbar-border-radius: 0px; --scrollbar-track-color: #1515acd9; --scrollbar-thumb-color: #FCFDFF5E; }
+.main-content-container::-webkit-scrollbar { width: var(--scrollbar-width, 20px); height: var(--scrollbar-height, 20px); }
+.main-content-container::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb-color, #3B82F6); border: var(--scrollbar-border-thickness, 3px) solid var(--scrollbar-border-color, rgb(255, 255, 255)); border-radius: var(--scrollbar-border-radius, 4px);  }
+.main-content-container::-webkit-scrollbar-track { background: var(--scrollbar-track-color, #A1A1AA);  border-radius: 10px;}
+.main-content-container::-webkit-scrollbar-corner { background: var(--scrollbar-corner-color, #FFFFFF); border: var(--scrollbar-border-thickness, 3px) solid var(--scrollbar-border-color, rgb(255, 255, 255)); border-radius: var(--scrollbar-border-radius, 4px); border-radius: 10px; }
+.main-content-container::-webkit-scrollbar-button:vertical:start:increment, #preview::-webkit-scrollbar-button:vertical:end:decrement, #preview::-webkit-scrollbar-button:horizontal:start:increment, #preview::-webkit-scrollbar-button:horizontal:end:decrement { display: var(--show-double-buttons, none); } */
